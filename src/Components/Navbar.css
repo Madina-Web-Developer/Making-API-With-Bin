@@ -1,0 +1,29 @@
+button{
+
+    @apply bg-white text-black text-[16px] font-bold rounded-sm
+
+     hover:bg-yellow-300 active:scale-[1.1] w-[110px] p-2
+}
+
+.buttons{
+
+    @apply flex gap-[30px]
+}
+
+img{
+
+    @apply w-[90px]
+}
+
+.main{
+    @apply flex justify-between items-center
+}
+
+.img{
+
+    @apply flex  items-center
+}
+
+p{
+    @apply   text-[25px] font-bold text-black
+}

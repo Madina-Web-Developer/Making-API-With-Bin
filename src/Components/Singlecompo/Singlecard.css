@@ -1,0 +1,115 @@
+
+.main_sing{
+
+    @apply mt-[85px]   flex flex-wrap gap-14 justify-center
+}
+
+
+.single_card{
+
+    @apply flex gap-1 bg-white w-[450px]  justify-between items-center border-[1px] border-[#8dbefb]
+
+     rounded-md hover:shadow-[0px_0px_6px_2px_rgba(59,_130,_246,_0.5)] 
+}
+
+h3{
+    @apply text-[35px] text-black font-serif text-center mt-10 font-bold
+}
+
+.text{
+    @apply text-[13px] text-[#393939]   font-medium
+}
+
+.img_div{
+
+    @apply overflow-hidden rounded-tl-md rounded-bl-md
+}
+
+.img_div img{
+
+    @apply w-[400px] h-[250px] hover:scale-[1.1]  transition-[3s]
+
+    rounded-tl-md rounded-bl-md
+}
+
+h1{
+    @apply text-[20px] font-bold text-blue-600 
+}
+
+.place{
+
+    @apply  pl-2 pr-2  w-[270px]
+}
+
+.cost{
+    @apply text-[15px] font-bold text-green-600 mt-2
+}
+
+
+.C{
+    @apply text-[15px] font-bold text-green-600
+}
+
+.co{
+
+    @apply flex justify-end
+}
+
+span{
+
+    @apply text-[15px] font-bold text-rose-700
+}
+
+.bu .d{
+
+
+    @apply text-[16px] font-bold hover:text-white  hover:bg-black text-center w-[79px]
+
+    rounded-sm bg-yellow-400 text-black 
+} 
+
+.bu{
+
+    @apply flex justify-end items-end pb-2
+}
+
+
+
+button{
+
+    @apply bg-white text-black text-[16px] font-bold rounded-sm
+
+     hover:bg-yellow-300 active:scale-[1.1] w-[110px] p-2
+}
+
+.buttons{
+
+    @apply flex gap-[30px]
+}
+
+img{
+
+    @apply w-[90px]
+}
+
+.main{
+    @apply flex justify-between items-center
+}
+
+.img{
+
+    @apply flex  items-center
+}
+
+p{
+    @apply   text-[25px] font-bold text-black 
+}
+
+.buy .book{
+
+    @apply p-1 text-[13px] font-bold text-yellow-500 bg-blue-400
+}
+
+.buy{
+    @apply flex justify-start mt-3
+}
